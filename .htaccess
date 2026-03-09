@@ -1,0 +1,2 @@
+php_value date.timezone America/Toronto
+DirectoryIndex index.html index.php

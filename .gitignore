@@ -1,0 +1,29 @@
+# 1. Dependency Manager (If you use Composer, otherwise skip)
+/vendor/
+composer.lock
+
+# 2. Local Environment & Secrets
+.env
+.env.local
+.env.dev
+config.php
+config.local.php
+
+# 3. IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 4. OS Files
+.DS_Store
+Thumbs.db
+
+# 5. Logs & Temporary Files
+*.log
+/logs/
+/tmp/
+/cache/
+galerie/bdAccess.php
+shoppingCart/secrets.php
+shoppingCart/stripe/README.md

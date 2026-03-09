@@ -1,0 +1,90 @@
+th, td, th, table{
+    border: black solid 1px;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+h1, header, #Verifieur{
+    text-align: center;
+}
+
+a, table{
+    margin: auto;
+}
+
+p{
+    color: red;
+    font-size: larger;
+    text-align: center;
+}
+
+label, input, button, a{
+    margin: 2px;
+}
+
+th{
+    background-color: #eee;
+}
+
+h1, h2, a, #Verifieur{
+    color: rgb(77, 0, 0);
+}
+
+footer{
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 16px;
+    border-top: 1px solid lightgray;
+}
+
+#imgGest{
+    max-width: 1000px;
+    max-height: 750px;
+}
+
+#divImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+#divImages > span{
+    width: 200px;
+    height: fit-content;
+}
+
+#divGrandeImage{
+    margin-bottom: 50px;
+}
+
+fieldset{
+	min-width: revert !important;
+    padding: revert !important;
+    margin: revert !important;
+    border: revert !important;
+}
+
+legend{
+    float: revert !important;
+    width: revert !important;
+    padding: revert !important;
+    line-height: revert !important;
+}
+
+body{
+    box-shadow: inset 0 8px 100px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 50%);
+    min-height: 100vh;
+    margin: auto;
+}
